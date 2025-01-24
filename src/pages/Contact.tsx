@@ -23,7 +23,13 @@ type FormData = {
 
 const Contact = () => {
   const { toast } = useToast();
-  const form = useForm<FormData>();
+  const form = useForm<FormData>({
+    defaultValues: {
+      name: "",
+      email: "",
+      message: ""
+    }
+  });
 
   const onSubmit = async (data: FormData) => {
     try {
@@ -64,7 +70,7 @@ const Contact = () => {
                   <FormItem>
                     <FormLabel>Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your name" {...field} />
+                      <Input placeholder="Your name" {...field} required />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -78,7 +84,12 @@ const Contact = () => {
                   <FormItem>
                     <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input type="email" placeholder="Your email" {...field} />
+                      <Input 
+                        type="email" 
+                        placeholder="Your email" 
+                        {...field} 
+                        required 
+                      />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -96,6 +107,7 @@ const Contact = () => {
                         placeholder="What would you like to tell us?"
                         className="min-h-[150px]"
                         {...field}
+                        required
                       />
                     </FormControl>
                     <FormMessage />
