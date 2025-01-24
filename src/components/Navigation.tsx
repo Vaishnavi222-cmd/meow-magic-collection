@@ -60,6 +60,16 @@ const Navigation = () => {
             >
               Products
             </Link>
+            <Link
+              to="/blog"
+              className={`${
+                isActive("/blog")
+                  ? "text-cat-primary border-b-2 border-cat-primary"
+                  : "text-gray-600 hover:text-cat-primary"
+              } transition-colors duration-200 py-2`}
+            >
+              Blog
+            </Link>
           </div>
         </div>
       </div>

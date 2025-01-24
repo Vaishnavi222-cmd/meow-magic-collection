@@ -8,37 +8,37 @@ const Products = () => {
       id: 1,
       title: "Digital Inspiration Pack 1",
       image: "/lovable-uploads/c19849b2-a0bb-4df7-a154-ca201f8ddd1e.png",
-      storeUrl: "#", // Replace with your actual store URL
+      storeUrl: "https://awakenedartisans.etsy.com/listing/1539279990/affirmation-card-deck-manifesting-kit",
     },
     {
       id: 2,
       title: "Digital Inspiration Pack 2",
       image: "/lovable-uploads/8e315bdb-5f5e-45ad-96f7-0d077d1d2896.png",
-      storeUrl: "#", // Replace with your actual store URL
+      storeUrl: "https://etsy.com/shop/digital-pack-2",
     },
     {
       id: 3,
       title: "Digital Inspiration Pack 3",
       image: "/lovable-uploads/a375b5ef-f261-4a36-938e-1ab580859329.png",
-      storeUrl: "#", // Replace with your actual store URL
+      storeUrl: "https://etsy.com/shop/digital-pack-3",
     },
     {
       id: 4,
       title: "Digital Inspiration Pack 4",
       image: "/lovable-uploads/a56fc758-25bd-484a-b026-8c69010563ec.png",
-      storeUrl: "#", // Replace with your actual store URL
+      storeUrl: "https://etsy.com/shop/digital-pack-4",
     },
     {
       id: 5,
       title: "Digital Inspiration Pack 5",
       image: "/lovable-uploads/11e97d7a-f7f7-4e5f-8b61-9c491a2d70fd.png",
-      storeUrl: "#", // Replace with your actual store URL
+      storeUrl: "https://etsy.com/shop/digital-pack-5",
     },
     {
       id: 6,
       title: "Digital Inspiration Pack 6",
       image: "/lovable-uploads/65f97ee7-cc8f-492b-abb4-365c0e7f7803.png",
-      storeUrl: "#", // Replace with your actual store URL
+      storeUrl: "https://etsy.com/shop/digital-pack-6",
     },
   ];
 
