@@ -40,6 +40,26 @@ const Navigation = () => {
             >
               Our Book
             </Link>
+            <Link
+              to="/contact"
+              className={`${
+                isActive("/contact")
+                  ? "text-cat-primary border-b-2 border-cat-primary"
+                  : "text-gray-600 hover:text-cat-primary"
+              } transition-colors duration-200 py-2`}
+            >
+              Contact
+            </Link>
+            <Link
+              to="/products"
+              className={`${
+                isActive("/products")
+                  ? "text-cat-primary border-b-2 border-cat-primary"
+                  : "text-gray-600 hover:text-cat-primary"
+              } transition-colors duration-200 py-2`}
+            >
+              Products
+            </Link>
           </div>
         </div>
       </div>
